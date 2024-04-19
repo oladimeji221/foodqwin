@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(cak.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: auto;
+    height: auto;
+    margin-left: 80px;
+    display: flex;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-top: 10px;
+    float: left;
+    background: #ff7200;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+    margin-top: 20px;
+    border-radius: 3px;
+    display: flex;
+
+}
+/* .menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.menu ul{
+    float: left;
+    display: inline flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.menu ul li{
+    font-size: 17px; 
+    width: 70px;
+    margin: 25px;
+    padding: 5px;
+}
+
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.menu ul li i{
+    position: absolute;
+    justify-items: left;
+    font-size: 20px;
+    color: white;
+}
+
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+
+
+
+ul li a:hover{
+    color: orangered;
+}
+
+.active{
+    background-color: #ff7200;
+    border-radius: 5px;
+    text-align: center;
+}
+.active:hover{
+    background-color: transparent;
+    border: 2px solid #ff7200;
+}
+
+.menu .submenu{
+    display: none;
+}
+
+.menu ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -15px;
+}
+
+.menu ul li:hover .submenu ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu ul li:hover .submenu ul li{
+    width: 50px;
+    padding: 10px;
+    border-bottom: 3px dotted #ff7200;
+    border-radius: 10px;
+}
+
+.submenu ul li a{
+    display: block;
+}
+*/
+
+
+nav ul {
+    display: flex;
+    list-style-type:none;
+}
+nav li a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 17px;
+  }
+
+  /* Change color on hover */
+  nav li a:hover {
+    background-color: #ff7200;
+    color: black;
+    border: none;
+    border-radius: 15px;
+  }
+
+  /* Style the dropdown button */
+  .dropdown-button {
+    float: left;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  /* Style the dropdown button link */
+  .dropdown-button .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: inherit;
+    font-family: inherit;
+    
+  }
+  .dropdown-button .dropbtn:hover {
+    background-color: #ff7200;
+    border: none;
+    border-radius: 15px;
+    color: black;
+  }
+
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Style the links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 15px 10px;
+    text-align: center;
+  }
+
+  /* Add a background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ff7200 ;
+    border: none;
+    border-radius: 8px;
+  }
+
+    /* Show the dropdown menu on hover */
+    .dropdown-button:hover .dropdown-content {
+        display: block;
+      }
+  
+
+ 
+.search{
+    width: 330px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.srch{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: #b66d32;
+}
+ 
+.btn:focus{
+    outline: none;
+}      
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content .par{
+    padding-left: 20;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+
+}
+.content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: auto;
+    padding-top: 9%;
+    letter-spacing: 2px;
+
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.1s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: 0.1s;
+}
+
+.content span{
+      color: #ff7200;
+      font-size: 60px;
+}
+.cn:hover{
+    background-color: black; 
+
+}
+
+.content .cnn{
+    width: 180px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2s ease;
+}
+
+.content .cnn a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: 1s ease;
+}
+
+.cnn:hover{
+    background-color:black; 
+}
+
+.form{
+    width: auto;
+    height: auto;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0.8)50%);
+    position: absolute;
+    top: 15%;
+    left: 900px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #ff7200;
+    font-size: 22px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.1s ease;
+}
+.btnn:hover{
+    font-size: 1.5em;
+    background: #51b632;
+}
+.btnn a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+}
+.liw{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: white; 
+}
+.icons a i{
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.4s ease;
+}
+.icons a i:hover{
+    color: #ff7200;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
